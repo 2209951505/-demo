@@ -1,0 +1,161 @@
+header{
+    height: 102px;
+    position: relative;
+}
+header a{
+    display: inline-block;
+    width: 170px;
+    height: 103px;
+    background: url(../img/logo1.png) no-repeat center;
+}
+section{
+    position: relative;
+    height: 483px;
+    background: #eeeeee;
+}
+section .bg{
+    background: url(../img/登陆.jpg) no-repeat center;
+    height: 100%;
+}
+.login-box {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    left: 50%;
+    font-family: "simsun", Verdana, Arial;
+    width: 320px;
+    height: 416px;
+    margin: -208px 30px 0 195px;
+    background: #fff;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.login-box .login-title {
+    position: relative;
+    border-bottom: 1px solid #ededed;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    line-height: 36px;
+}
+.login-box .login-title .name {
+    font-size: 18px;
+    color: #010101;
+}
+.login-box .login-title .link-a {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: #e40850;
+    font-size: 12px;
+}
+.login-box .form-list {
+    position: relative;
+    border: 1px solid #bfbfbf;
+    height: 41px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.login-box .form-list .input-text {
+    position: relative;
+    z-index: 1;
+    height: 21px;
+    margin: 10px 15px 10px 45px;
+    border: 0;
+    width: 260px;
+}
+.login-box .form-list .icon-login-user, .login-box .form-list .icon-login-password {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 10px;
+    display: block;
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    z-index: 2;
+}
+.login-box .form-list .icon-login-password {
+    background: url(../img/icon-login-password.gif) no-repeat;
+}
+.login-box .form-list .icon-login-user {
+    background: url(../img/icon-login-user.gif) no-repeat;
+}
+.login-box .login-tool {
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.user-default-btn {
+    display: block;
+    text-align: center;
+    border: 0;
+    height: 47px;
+    line-height: 47px;
+    background: #ff3736;
+    color: #ffffff;
+    font-size: 18px;
+}
+.login-box .login-tool .label-check input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -2px;
+    color: #333;
+}
+.login-box .login-tool .link-a {
+    float: right;
+    color: #333;
+}
+.user-default-btn:hover {
+    text-decoration: none;
+    background-color: #ff4d4c;
+    color: #fff;
+}
+.login-box .other-login {
+    margin-top: 10px;
+    color: #7c7c7c;
+    line-height: 22px;
+}
+.login-box .other-login .label-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.login-box .other-login .icon-login-qq, .login-box .other-login .icon-login-wx {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    line-height: 40px;
+}
+.login-box .other-login .icon-login-wx {
+    background: url(../img/icon-login-wx-default.png) no-repeat;
+}
+.login-box .other-login .icon-login-qq {
+    background: url(../img/icon-login-qq-default.png) no-repeat;
+}
+.login-box .other-login .icon-login-wx:hover {
+    background: url(../img/icon-login-wx-active.png) no-repeat;
+}
+.login-box .other-login .icon-login-qq:hover {
+    background: url(../img/icon-login-qq-active.png) no-repeat;
+}
+footer{
+    font-size: 12px;
+    background: #fff;
+    border-top: 1px solid #e7e7e7;
+    padding: 30px 0;
+    color: #7f7f7f;
+}
+footer p {
+    line-height: 30px;
+    text-align: center;
+}
+footer p a {
+    color: #7f7f7f;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+footer p a:hover{
+    color: #7f7f7f;
+}

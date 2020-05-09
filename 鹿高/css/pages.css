@@ -1,0 +1,77 @@
+/* CN Legal Page Styles */ 
+.page{
+	margin-top:100px;
+	text-align:left;	
+}
+.page .container{
+  padding: 50px 0;
+}
+.page .container h1{
+	font-size:24px;
+	font-weight:300;
+	margin:0 0 12px 0;
+  text-align: center;
+  color: #0f0;
+}
+.page .container p{
+	color:#888;
+  font-size: 16px;
+	line-height:24px;
+	margin-bottom:1em;
+   font-weight: 400;
+}
+.page .container .content{
+padding: 1em;
+}
+.page .container .content ol{
+   color: #888;
+}
+.page .container .content ol li{
+  list-style: decimal;
+  margin-left: 2em;
+}
+.page .container .content ol li p.header {
+  color: #fff;
+}
+.page .container .content ol.ol-2 li{
+	list-style: upper-alpha;
+}
+.page .container .content ol.ol-3 li{
+	list-style: lower-roman;
+}
+.page .container .content ol.ol-4 li{
+	list-style: lower-alpha;
+}
+.page .container span{
+	color:#fff;	
+}
+.page .container a{
+	text-decoration:none;
+   color: #0f0;
+   word-break: break-all;	
+}
+.page .container ul{
+	color:#666;
+	margin-left:00px;
+	margin-bottom:40px;
+}
+.page .container ul li{
+	list-style:circle;	
+}
+table.warranty{
+   border-top: 1px solid #535353;
+   border-bottom: 1px solid #535353;
+   margin-bottom: 1em;
+}
+table.warranty tr td.style1{
+   padding: 3px 5px;
+   border: 1px solid #535353;
+}
+@media (max-width: 991px) {
+   .page{
+	  margin-top:60px;
+   }
+   table.warranty{
+      width: 100%;
+   }
+}

@@ -1,0 +1,7 @@
+导航接口：http://mock.shtodream.cn/mock/5e98325c0f0ab03f6d504720/xiaolu/dh
+提交方式：get
+数据：json
+
+轮播图接口：http://mock.shtodream.cn/mock/5e98325c0f0ab03f6d504720/xiaolu/xiaolu
+提交方式get
+数据json
